@@ -1,0 +1,45 @@
+/* src/components/Login.css */
+.login {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .login h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-form input {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .submit-login {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+  }
+  
+  .submit-login:hover {
+    background-color: #ff4f41;
+  }
+  
+  .login p {
+    margin-top: 20px;
+    font-size: 1em;
+  }
+  

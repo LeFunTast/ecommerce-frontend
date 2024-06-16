@@ -1,0 +1,79 @@
+/* src/components/Checkout.css */
+.checkout {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .checkout h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .checkout-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .checkout-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    flex: 1;
+  }
+  
+  .checkout-form h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .checkout-form input {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .submit-order {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+  }
+  
+  .submit-order:hover {
+    background-color: #ff4f41;
+  }
+  
+  .order-summary {
+    text-align: left;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .order-summary h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .order-summary ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order-summary ul li {
+    margin-bottom: 5px;
+  }
+  
+  .order-summary p {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
